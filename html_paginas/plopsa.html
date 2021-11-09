@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Top Veilingen</title>
+    <link href="https://fonts.googleapis.com/css?family=Dosis:300|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.5.0/css/light.css" integrity="sha384-33RmjeesW9BZ4wR2Gm3n4iBXOvGTto4znqL2kZleiRanWDxM59IHIq5RsbRioqxb" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.5.0/css/fontawesome.css" integrity="sha384-srL3Qh9R/n855m4o5fegS//B2q0R1md7z6ndDYaPj8iEp0j0IuKdFVWMY0JosKPF" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/main.min.css">
+</head>
+<body>
+    <header>
+    <div class="container">
+        <nav>
+            <div class="brand">Top Veilingen</div>
+            <a href='/index.html' >
+                <i class="fal fa-home"></i>
+                <span>Home</span>
+            </a>
+                            <a href='/reizen.html' >
+                    <i class="fal fa-plane-departure"></i>
+                    <span>Reizen</span>
+                </a>
+                            <a href='/fun.html' class="active">
+                    <i class="fal fa-gift-card"></i>
+                    <span>Fun</span>
+                </a>
+                            <a href='/gadgets.html' >
+                    <i class="fal fa-laptop"></i>
+                    <span>Gadgets</span>
+                </a>
+                    </nav>
+    </div>
+</header>
+    <div class="container">
+                    <div class="auction">
+                <div class="details">
+                    <img src="/images/plopsa.jpg">
+                    <div class="text">
+                        <h1>2 tickets voor Plopsa</h1>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="bid">
+                    <div class="countdown" id="countdown" data-date="August 26, 2021 19:30:00">00:00:00</div>
+                    
+                    <form id="bidform">
+                        <h2>Plaats een hoger bod</h2>
+                        <div class="form-item">
+                            <label>Naam</label>
+                            <input type="text" name="name">
+                        </div>
+                        <div class="form-item">
+                            <label>E-mail</label>
+                            <input type="email" name="email">
+                        </div>
+                        <div class="form-item">
+                            <label>Uw bod</label>
+                            <input type="number" name="price">
+                        </div>
+                        <input type="hidden" name="auction_id" value="3">
+                        <button type="submit" name="place_bid">Plaats bod</button>
+                    </form>
+
+                </div>
+            </div>
+        
+            <h2>Biedingen</h2>
+            <div class="list">
+                <div class="list-item-header">
+                    <span>Naam</span>
+                    <span>Bod</span>
+                </div>
+                                        <div class="list-item">
+                            <span>Donavon Garthland</span>
+                            <span>€ 38,-</span>
+                        </div>
+                                        <div class="list-item">
+                            <span>Darin Farrah</span>
+                            <span>€ 35,-</span>
+                        </div>
+                                        <div class="list-item">
+                            <span>Elianore Drysdall</span>
+                            <span>€ 30,-</span>
+                        </div>
+                                        <div class="list-item">
+                            <span>Guillemette Littleton</span>
+                            <span>€ 14,-</span>
+                        </div>
+                            </div>
+
+        </div>
+
+            </div>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
